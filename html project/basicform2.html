@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form :</title>
+</head>
+<body>
+    <h2>Basic Form :</h2>
+    <form action="/server">
+        <div>
+            <label for="username">Name :</label>
+            <input type="text" placeholder="Enter-Name" id="username" name="name">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="email">Enter Email : </label>
+            <input type="email" id="email" name="email" placeholder="Enter-Email">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="age">Are you 18+ :</label>
+        <label for="age">Yes</label>
+        <input type="radio" id="age" name="age" value="Yes">
+        <label for="age">NO</label>
+        <input type="radio" id="age" name="age" value="no">
+        </div>
+        <br>
+        <br>
+        <label for="volume">Volume : </label>
+        <input type="range" min="0" max="100" step="10" id="volume" name="volume">
+        <br>
+        <br>
+        <div>
+            <label for="file">File : </label>
+            <input type="file" id="file" name="file">
+        </div>
+        <br>
+        <br>
+        <div>
+            <button type="submit">Submit me</button>
+            <button type="reset">Reset-All</button>
+        </div>
+    </form>
+</body>
+</html>
